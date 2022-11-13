@@ -1,0 +1,8 @@
+.formulario{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.formulario__anchor{
+    color: white;
+}
