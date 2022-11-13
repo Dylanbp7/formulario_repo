@@ -10,7 +10,7 @@ $telefono = $_POST ["telefono"];
 $asunto = $_POST ["asunto"];
 $mensaje = $_POST ["mensaje"];
 
-$rta = @mail("soydylanbatista@gmail.com", "Mensaje web: $asunto", $mensaje);
+$rta = mail("soydylanbatista@gmail.com", "Mensaje web: $asunto", $mensaje);
 var_dump($rta)
 
 
